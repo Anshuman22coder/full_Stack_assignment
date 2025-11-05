@@ -21,7 +21,7 @@ return (
         email,
         password
       })
-      const response2=await axios.get("http://localhost:4000/username",{
+      const response2=await axios.get("https://full-stack-assignment-1-ra5o.onrender.com/username",{
         headers:{email:email}})
       console.log(response2.data.username);
       Cookie.set("username",response2.data.username,{path:"/",expires:1});
