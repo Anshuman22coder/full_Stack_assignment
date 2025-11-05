@@ -16,7 +16,7 @@ return (
 
     console.log({username,password,email});
     try{
-      const response =await axios.post("http://localhost:4000/register",{
+      const response =await axios.post("https://full-stack-assignment-1-ra5o.onrender.com/register",{
         email,
         username,
         password
