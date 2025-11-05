@@ -22,7 +22,7 @@ return (
 
     console.log({content,email});
     try{
-      const response =await axios.post("http://localhost:4000/posts",{
+      const response =await axios.post("https://full-stack-assignment-1-ra5o.onrender.com/posts",{
         email,
         content
       })
